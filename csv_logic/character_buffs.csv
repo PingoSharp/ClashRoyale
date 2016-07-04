@@ -1,7 +1,7 @@
-"Name","IconFileName","IconExportName","ChangeControl","NoEffectToCrownTowers","CrownTowerDamagePercent","DamagePerSecond","DamageType","DamageReduction","HealReduction","ImmuneToAntiMagic","HitSpeedMultiplier","SpeedMultiplier","SpawnSpeedMultiplier","NegatesBuffs","ImmunityToBuffs","Invisible","RemoveOnAttack","RemoveOnHeal","DamageMultiplier","Panic","Effect","FilterFile","FilterExportName","SizeMultiplier","StaticTarget","IgnorePushBack","MarkEffect","AudioPitchModifier"
-"String","String","String","Boolean","Boolean","int","int","String","int","int","Boolean","int","int","int","String","String","Boolean","Boolean","Boolean","int","boolean","String","String","String","int","boolean","boolean","String","int"
-"Rage",,,,,,,,,,,140,140,140,,,,,,,,"Spell_rage_hit_effect","sc/effects.sc","filter_rage",,,,"Healing",125
-"Freeze",,,,,,,,,,"TRUE",-100,-100,-100,,,,,,,,,"sc/effects.sc","filter_cold",,,,,
-"Poison",,,,,-60,42,,,,"TRUE",-20,-20,-20,,,,,,,,"PoisonSteam","sc/effects.sc","filter_poison",,,,,
-"IceWizardSlowDown",,,,,,,,,,,-35,-35,-35,,,,,,,,,"sc/effects.sc","filter_cold",,,,"Healing",75
-"ZapFreeze",,,,,,,,,,"TRUE",-100,-100,-100,,,,,,,,,"sc/effects.sc","filter_cold",,,,,
+"Name","TID","IconFileName","IconExportName","ChangeControl","NoEffectToCrownTowers","CrownTowerDamagePercent","DamagePerSecond","DamageType","DamageReduction","HealReduction","ImmuneToAntiMagic","HitSpeedMultiplier","SpeedMultiplier","SpawnSpeedMultiplier","NegatesBuffs","ImmunityToBuffs","Invisible","RemoveOnAttack","RemoveOnHeal","DamageMultiplier","Panic","Effect","FilterFile","FilterExportName","FilterAffectsTransformation","FilterInheritLifeDuration","SizeMultiplier","StaticTarget","IgnorePushBack","MarkEffect","AudioPitchModifier","PortalSpell"
+"String","String","String","String","Boolean","Boolean","int","int","String","int","int","Boolean","int","int","int","String","String","Boolean","Boolean","Boolean","int","boolean","String","String","String","boolean","boolean","int","boolean","boolean","String","int","String"
+"Rage","TID_SPELL_RAGE",,,,,,,,,,,140,140,140,,,,,,,,"Spell_rage_hit_effect","sc/effects.sc","filter_rage",,,,,,"Healing",125,
+"Freeze","TID_SPELL_FREEZE",,,,,,,,,,"TRUE",-100,-100,-100,,,,,,,,,"sc/effects.sc","filter_cold",,,,,,,,
+"Poison",,,,,,-60,42,,,,"TRUE",-20,-20,-20,,,,,,,,"PoisonSteam","sc/effects.sc","filter_poison",,,,,,,,
+"IceWizardSlowDown",,,,,,,,,,,,-35,-35,-35,,,,,,,,,"sc/effects.sc","filter_cold",,,,,,"Healing",75,
+"ZapFreeze","TID_SPELL_FREEZE",,,,,,,,,,"TRUE",-100,-100,-100,,,,,,,,,"sc/effects.sc","filter_cold",,,,,,,,
